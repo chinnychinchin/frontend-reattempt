@@ -1,0 +1,5 @@
+<h2>Cart</h2>
+
+<mat-nav-list>
+    <a mat-list-item *ngFor="let item of cart" (click)="onItemClick(item.id)">{{ item.item }} </a>
+ </mat-nav-list>
